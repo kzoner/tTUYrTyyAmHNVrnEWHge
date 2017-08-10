@@ -1,0 +1,5 @@
+D:\source\hiepphat\inside\Program\DataProviders\bin\Release\Inside.DataProviders.dll
+D:\source\hiepphat\inside\Program\DataProviders\bin\Release\Inside.DataProviders.pdb
+D:\source\hiepphat\inside\Program\DataProviders\obj\Release\DataProviders.csprojResolveAssemblyReference.cache
+D:\source\hiepphat\inside\Program\DataProviders\obj\Release\Inside.DataProviders.dll
+D:\source\hiepphat\inside\Program\DataProviders\obj\Release\Inside.DataProviders.pdb

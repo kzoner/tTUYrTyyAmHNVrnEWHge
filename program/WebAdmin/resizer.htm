@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function resizeFrame() {            
+            var show = "235,8,*";
+            var hide = "0,8,*";
+            var frameset = parent.document.getElementById("main");
+            var resizer = document.getElementById("resizer");
+
+            if (frameset.cols == show) {
+                frameset.cols = hide;
+                resizer.innerHTML = '<img src="/Images/frame_open.png" alt="&gt;" style="width:10px;" />';
+                resizer.title = "click to open";
+            }
+            else {
+                frameset.cols = show;
+                resizer.innerHTML = '<img src="/Images/frame_close.png" alt="&lt;" style="width:10px;" />';
+                resizer.title = "click to close";
+            }
+
+
+        }
+
+        function setHeight() {
+            var resizer = document.getElementById("resizer");
+            resizer.style.height = (screen.height - 1000) + "px";
+        }
+ </script>
+</head>
+<body style="background-color:#eeffff; overflow:hidden;">
+    <div class="box" id="resizer" style="width:100%; height:1000px; cursor:pointer; position:absolute; left:0px; overflow:hidden;" onclick="resizeFrame();" title="click to close"><img src="/Images/frame_close.png" alt="&lt;" style="width:10px;" /></div>
+</body>
+</html>
+<!--background-image:url('/Images/bar.jpg'); background-repeat:repeat-y; -->

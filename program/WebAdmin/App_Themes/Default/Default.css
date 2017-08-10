@@ -1,0 +1,350 @@
+﻿@import url("/Library/animate.min.css");
+
+/*Chuan cho toàn bộ các form ứng dụng*/
+html {
+    height: 98%;
+}
+
+body
+{
+    color: #1b1b1b;
+    background: #dedede;    
+    font-family: Tahoma;
+    font-size: 11px;    
+    min-height: 98%;
+    margin: 0px 0px 0px 0px;
+}
+
+td, th {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+/*Set chieu cao tieu de cua form */
+.TitleHeight
+{
+    height: 24px;
+}
+
+a:link
+{ 
+    color:#3366CC; 
+    text-decoration:none;
+}
+
+a:hover
+{ 
+    color:red;
+    text-decoration:none;
+}
+
+a:visited
+{ 
+    color:#3366CC; 
+    text-decoration:none;
+}
+
+/*stype an hien hinh trong cac game*/
+.disabledImg
+{
+	border:1px solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #999999;
+	border-bottom-color:#999999; 
+	border-left-color: #FFFFFF;
+	filter:alpha(opacity=20);
+	opacity:.2;	
+}
+
+.enabledImg
+{
+	border:1px solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #999999;
+	border-bottom-color:#999999; 
+	border-left-color: #FFFFFF;
+	filter:alpha(opacity=100);
+	opacity:1;	
+}
+
+/* style cho tieu de cua form*/
+.formTitle
+{    
+    color: #d55500;
+    font-size:smaller;
+    font-weight: bold;
+    background-color: #fcfcfc;
+    padding: 4px;
+    width: auto;
+    margin-bottom:1px;
+}
+
+/*Tạo  viền nổi xung quanh table, gridview...*/
+.box
+{
+    border:1px solid; 
+    border-top-color:#ffffff;	
+    border-left-color:#ffffff;
+    border-right-color: #999999;
+    border-bottom-color:#999999;
+    padding: 0px 0px 0px 0px;
+}
+
+.Box
+{
+    border:1px solid; 
+    border-top-color:#ffffff;	
+    border-left-color:#ffffff;
+    border-right-color: #999999;
+    border-bottom-color:#999999;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.SubCat
+{
+    background-color: #FFFFFE;
+}
+/*.hlightrow*/
+.HlightRow
+{
+    background-color:#EFEFEF;
+}
+
+/*Tiêu đề Gridview, table*/
+.Label
+{
+    background-color:#D75600 !important;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+.headerDefault
+{
+    font-weight: bold;    
+    color: #FFFFFF;
+    
+    background-color:#D75600 !important;
+}
+
+
+.hideCheckBoxLabel
+{
+    font-size:0px;
+}
+
+.boldText
+{
+    font-weight: bold;    
+}
+
+.rowHeader
+{
+    color:#D75600; 
+    font-weight:bold
+}
+
+.errorText
+{
+    color: #D75600;
+    font-weight: bold;
+}
+
+.divControl
+{
+    padding: 2px;
+}
+
+.colunmHeader
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #D75600 !important;
+}
+
+
+.ParentCat
+{
+    color: #D75600; 
+    font-weight:bold; 
+    background-color: #FFF9F3;
+}
+
+.HlightRow1
+{
+    background-color:#FFDFCA !important;
+}
+
+.HlightRow2
+{
+    background-color:#CCFFFF !important;
+}
+
+.HlightRowHeader
+{
+    background-color: #ECFEFE;
+    font-weight: bold;
+}
+
+.HlightRowHeader1
+{	
+    color: #D75600; 
+    background-color:#FFDFCA;     
+    font-weight:bold
+}
+.HlightRowHeader2
+{	
+    color: #000000; 
+    background-color:#FFDFCA;     
+    font-weight:bold
+}
+/*Canh phải cho các textbox dữ liệu dạng số*/
+.numericField
+{
+    text-align:right;        
+    padding-right:2px;
+}
+
+
+/*Dùng cho hàng tổng, trung bình của một gridview, table*/
+.DarkContent
+{
+    background-color:#FFFFCC !important;
+}
+
+/*Menu Tree*/
+#tvwMenu a:link,#tvwMenu a:visited
+{
+    color: #1b1b1b;
+    text-decoration: none;
+}
+#tvwMenu a:hover, #tvwMenu a:active
+{
+    color: #D75600;
+    text-decoration: none;
+}
+
+.MenuNodeSelecting
+{
+    color: #D75600 !important;
+    text-decoration: none;
+}
+
+/*Tool tip tren danh sach tin tuc*/
+#dhtmltooltip{
+	position: absolute;
+	width: 400px;
+	background-color: #fffbb8;
+	visibility: hidden;
+	z-index: 100;
+	filter:alpha(opacity=80);
+	opacity:.8;
+}
+
+.Info
+{ 
+    font-family:Arial; 
+    font-size: 11px; 
+    text-decoration:none; 
+    font-weight:bold;
+    color:#000099
+}
+
+
+/* Style cho form bao cao doanh so cua Ke toan*/
+.Region {
+  background-color: #FFDFCA;
+  color: #990000;
+}
+.Region a:link,.Region a:visited {
+  color: #E81500;
+}
+
+   .Service {
+     background-color:  #FFF9F3;
+     color: #4169E1;
+   }
+.Divition
+{
+background-color: #FFF9F3;
+color: #000000;
+}
+
+.Divition a:link,.Divition a:visited{
+ color: #4169E1;
+/* text-decoration:underline;*/
+}
+.Service a:link,.Service a:visited{
+ color: #FFF938;
+}
+   .Detaildivi
+{
+    background-color: #FBFA9B;
+    color: #000000;
+    font-weight:bold;
+}
+    .Nomalrow
+   {
+     background-color: #ECFEFE;
+   }
+   .Nomalrow a:link,.Nomalrow a:visited
+   {
+     color: #4169E1;
+
+   }
+       .TotalService {
+     background-color: #FFF9F3;
+   }
+.buttonSave
+{
+    color:red;
+    background: url("/Images/btnSave.png");
+    background-position:left center;
+    background-repeat: no-repeat;
+    padding:4px;
+    -moz-border-radius:5px;
+}
+
+/* scroll bar style */
+
+/* Chrome Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;    
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    height: 0px;
+    width: 0px;
+    display: block;
+    /*background-color: transparent;*/
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #E8E8EC;
+    -webkit-border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 12px;
+    background-color: #999999;
+    -webkit-border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 12px;
+    background-color: #999999;
+    -webkit-border-radius: 2px;
+}
+/* IE Scrollbar*/
+body, html {    
+    scrollbar-arrow-color: #999999;
+    scrollbar-track-color: #E8E8EC;
+    scrollbar-face-color: #cdcdcd;
+    scrollbar-highlight-color: #fefefe;
+    scrollbar-3dlight-color: #dcdcdc;
+    scrollbar-shadow-color: #cdcdcd;
+    scrollbar-darkshadow-color: #fefefe;
+}
+
+/* Mozilla Scrollbar */

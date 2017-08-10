@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+    <siteMapNode url="Home.aspx" title="Quản trị"  description="">
+      
+      <!--Users groups-->
+      <siteMapNode title="Tài khoản"  description="">
+        <siteMapNode url="/Signin/" title="Đăng nhập" />
+        <siteMapNode url="/Admin/Users/Create/" title="Tạo tài khoản" />
+        <siteMapNode url="/Admin/Users/Manage/" title="Danh sách tài khoản" />
+        <siteMapNode url="ChangePwd/" title="Đổi mật khẩu" />
+        <siteMapNode url="/Admin/Users/Manage/ResetPwd/" title="Đặt mật khẩu" />
+      </siteMapNode>
+      
+      <!--Roles groups-->
+      <siteMapNode title="Nhóm người dùng"  description="">
+        <siteMapNode url="/Admin/Roles/Create/" title="Tạo nhóm" />
+        <siteMapNode url="/Admin/Roles/Manage/" title="Danh sách nhóm" />
+      </siteMapNode>
+
+      <!--Resources groups-->
+      <siteMapNode title="Tài nguyên"  description="">
+        <siteMapNode url="/Resources/Add/" title="Thêm mới" />
+        <siteMapNode url="/Resources/ResourceTypes/" title="Quản lý loại tài nguyên" />
+        <siteMapNode url="/Resources/Manage/" title="Quản lý tài nguyên" />
+      </siteMapNode>
+
+      <!--Application groups-->
+      <siteMapNode title="Ứng dụng"  description="">
+        <siteMapNode url="/Application/Create/" title="Tạo ứng dụng" />
+        <siteMapNode url="/Application/Manage/" title="Danh sách ứng dụng" />
+      </siteMapNode>
+
+    <!--Operation Category-->
+    <siteMapNode title="Loại thao tác"  description="">
+        <siteMapNode url="/OperationCat/Create/" title="Tạo loại thao tác" />
+        <siteMapNode url="/OperationCat/Manage/" title="Danh sách loại thao tác" />
+    </siteMapNode>
+		<!--Menu Category-->
+		<siteMapNode title="Danh mục"  description="">
+			<siteMapNode url="/Admin/Menus/Manage/" title="Quản lý danh mục" />
+		</siteMapNode>
+      
+    </siteMapNode>
+  
+</siteMap>

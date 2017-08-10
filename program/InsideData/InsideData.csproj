@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3297D51B-C544-49F8-9AA4-D0E989AE8A59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inside.InsideData</RootNamespace>
+    <AssemblyName>Inside.InsideData</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AccountBase.cs" />
+    <Compile Include="Base\FeeBase.cs" />
+    <Compile Include="Base\Format.cs" />
+    <Compile Include="Base\OrderBase.cs" />
+    <Compile Include="Base\OrderDetailBase.cs" />
+    <Compile Include="Base\ProductBase.cs" />
+    <Compile Include="Business\AccountManager.cs" />
+    <Compile Include="Business\FeeManager.cs" />
+    <Compile Include="Business\OrderDetailManager.cs" />
+    <Compile Include="Business\OrderManager.cs" />
+    <Compile Include="Business\ProductManager.cs" />
+    <Compile Include="Business\StatusManager.cs" />
+    <Compile Include="Business\UnitManager.cs" />
+    <Compile Include="ConfigurationHelper.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataAccess\AccountAdapter.cs" />
+    <Compile Include="DataAccess\FeeAdapter.cs" />
+    <Compile Include="DataAccess\GeneralDataAdapter.cs" />
+    <Compile Include="DataAccess\OrderAdapter.cs" />
+    <Compile Include="DataAccess\OrderDetailAdapter.cs" />
+    <Compile Include="DataAccess\ProductAdapter.cs" />
+    <Compile Include="DataAccess\StatusAdapter.cs" />
+    <Compile Include="DataAccess\UnitAdapter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProviders\DataProviders.csproj">
+      <Project>{82727c22-754d-49db-bd38-d1c2020e0629}</Project>
+      <Name>DataProviders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

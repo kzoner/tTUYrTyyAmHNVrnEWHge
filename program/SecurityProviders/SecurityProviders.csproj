@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EADEBF32-4C2E-43F0-9257-9C48DFAF7ACA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inside.SecurityProviders</RootNamespace>
+    <AssemblyName>Inside.SecurityProviders</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\ActionLog.cs" />
+    <Compile Include="Base\Application.cs" />
+    <Compile Include="Base\ApplicationCollection.cs" />
+    <Compile Include="Base\ErrorLog.cs" />
+    <Compile Include="Base\GlobalEnum.cs" />
+    <Compile Include="Base\Membership.cs" />
+    <Compile Include="Base\MembershipCollection.cs" />
+    <Compile Include="Base\MenuItem.cs" />
+    <Compile Include="Base\MenuItemCollection.cs" />
+    <Compile Include="Base\Operation.cs" />
+    <Compile Include="Base\OperationCategory.cs" />
+    <Compile Include="Base\OperationCategoryCollection.cs" />
+    <Compile Include="Base\OperationCollection.cs" />
+    <Compile Include="Base\Permission.cs" />
+    <Compile Include="Base\PermissionCollection.cs" />
+    <Compile Include="Base\Question.cs" />
+    <Compile Include="Base\QuestionCollection.cs" />
+    <Compile Include="Base\Resource.cs" />
+    <Compile Include="Base\ResourceCollection.cs" />
+    <Compile Include="Base\ResourceType.cs" />
+    <Compile Include="Base\ResourceTypeCollection.cs" />
+    <Compile Include="Base\Role.cs" />
+    <Compile Include="Base\RoleCollection.cs" />
+    <Compile Include="Base\User.cs" />
+    <Compile Include="Base\UserCollection.cs" />
+    <Compile Include="Bussiness\ActionLogManager.cs" />
+    <Compile Include="Bussiness\ApplicationManager.cs" />
+    <Compile Include="Bussiness\ErrorLogManager.cs" />
+    <Compile Include="Bussiness\QuestionManager.cs" />
+    <Compile Include="ConfigurationHelper.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataAccess\ActionLogAdapter.cs" />
+    <Compile Include="DataAccess\ErrorLogAdapter.cs" />
+    <Compile Include="DataAccess\QuestionAdapter.cs" />
+    <Compile Include="DataChecker.cs" />
+    <Compile Include="Bussiness\MenuManager.cs" />
+    <Compile Include="Bussiness\OperationCategoryManager.cs" />
+    <Compile Include="Bussiness\OperationManager.cs" />
+    <Compile Include="Bussiness\PermissionManager.cs" />
+    <Compile Include="Bussiness\ResourceManager.cs" />
+    <Compile Include="Bussiness\ResourceTypeManager.cs" />
+    <Compile Include="Bussiness\RoleManager.cs" />
+    <Compile Include="SecurityException.cs" />
+    <Compile Include="Bussiness\UserManager.cs" />
+    <Compile Include="DataAccess\ApplicationAdapter.cs" />
+    <Compile Include="DataAccess\MenuAdapter.cs" />
+    <Compile Include="DataAccess\OperationAdapter.cs" />
+    <Compile Include="DataAccess\OperationCategoryAdapter.cs" />
+    <Compile Include="DataAccess\PermissionAdapter.cs" />
+    <Compile Include="DataAccess\ResourceAdpater.cs" />
+    <Compile Include="DataAccess\ResourceTypeAdapter.cs" />
+    <Compile Include="DataAccess\RoleAdapter.cs" />
+    <Compile Include="DataAccess\UserAdapter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataProviders\DataProviders.csproj">
+      <Project>{82727c22-754d-49db-bd38-d1c2020e0629}</Project>
+      <Name>DataProviders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
