@@ -44,6 +44,7 @@
                     <ItemTemplate>
                         <asp:LinkButton ID="lbtnEdit" runat="server" CommandArgument='<% #Eval("FeeId") %>' OnClick="lbtnEdit_Click">Edit</asp:LinkButton>
                     </ItemTemplate>
+                    <ItemStyle HorizontalAlign="Center" />
                 </asp:TemplateField>
                 <asp:BoundField DataField="CreateDate" HeaderText="CreateDate" />
                 <asp:BoundField DataField="FeeTypeId" HeaderText="FeeTypeId" />

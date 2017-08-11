@@ -46,6 +46,13 @@
                     <ItemTemplate>
                         <asp:LinkButton ID="lbtnEdit" runat="server" CommandArgument='<% #Eval("OrderId") %>' OnClick="lbtnEdit_Click">Edit</asp:LinkButton>
                     </ItemTemplate>
+                    <ItemStyle HorizontalAlign="Center" />
+                </asp:TemplateField>
+                <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:LinkButton ID="lbtnDetail" runat="server" CommandArgument='<% #Eval("OrderId") %>' OnClick="lbtnDetail_Click">Detail</asp:LinkButton>
+                    </ItemTemplate>
+                    <ItemStyle HorizontalAlign="Center" />
                 </asp:TemplateField>
                 <asp:BoundField DataField="CreateDate" HeaderText="CreateDate" />
                 <asp:BoundField DataField="AccountTypeId" HeaderText="AccountTypeId" />

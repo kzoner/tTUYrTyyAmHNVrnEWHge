@@ -10,7 +10,7 @@ namespace WebAdmin.Function.Order.Add
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "";
+            this.Token = "52FBC425-2A39-4BDC-AFE8-700910D3267A";
         }
 
         protected void Page_Load(object sender, EventArgs e)

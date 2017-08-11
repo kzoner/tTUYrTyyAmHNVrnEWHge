@@ -149,6 +149,12 @@ namespace WebAdmin.Function.Order
             }
         }
 
+        protected void lbtnDetail_Click(object sender, EventArgs e)
+        {
+            LinkButton lbtnDetail = (LinkButton)sender;
+            Response.Redirect(string.Format("Detail/?id={0}", lbtnDetail.CommandArgument));
+        }
+
         protected void gvData_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             Format format = new Format();
@@ -164,14 +170,14 @@ namespace WebAdmin.Function.Order
 
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
-                e.Row.Cells[1].Text = DateTime.Parse(e.Row.Cells[1].Text).ToString("dd/MM/yyyy");
-                e.Row.Cells[2].Text = accountManager.AccountType_GetName(int.Parse(e.Row.Cells[2].Text));
-                e.Row.Cells[5].HorizontalAlign = HorizontalAlign.Right;
-                e.Row.Cells[5].Text = decimal.Parse(e.Row.Cells[5].Text).ToString("#,##0");
+                e.Row.Cells[2].Text = DateTime.Parse(e.Row.Cells[2].Text).ToString("dd/MM/yyyy");
+                e.Row.Cells[3].Text = accountManager.AccountType_GetName(int.Parse(e.Row.Cells[3].Text));
                 e.Row.Cells[6].HorizontalAlign = HorizontalAlign.Right;
                 e.Row.Cells[6].Text = decimal.Parse(e.Row.Cells[6].Text).ToString("#,##0");
                 e.Row.Cells[7].HorizontalAlign = HorizontalAlign.Right;
                 e.Row.Cells[7].Text = decimal.Parse(e.Row.Cells[7].Text).ToString("#,##0");
+                e.Row.Cells[8].HorizontalAlign = HorizontalAlign.Right;
+                e.Row.Cells[8].Text = decimal.Parse(e.Row.Cells[8].Text).ToString("#,##0");
             }
         }
     }

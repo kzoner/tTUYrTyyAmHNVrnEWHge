@@ -19,3 +19,10 @@ D:\source\hiepphat\inside\program\InsideData\bin\Debug\Inside.DataProviders.pdb
 D:\source\hiepphat\inside\program\InsideData\obj\Debug\InsideData.csprojResolveAssemblyReference.cache
 D:\source\hiepphat\inside\program\InsideData\obj\Debug\Inside.InsideData.dll
 D:\source\hiepphat\inside\program\InsideData\obj\Debug\Inside.InsideData.pdb
+D:\source\hiepphat\dev\program\InsideData\bin\Debug\Inside.InsideData.dll
+D:\source\hiepphat\dev\program\InsideData\bin\Debug\Inside.InsideData.pdb
+D:\source\hiepphat\dev\program\InsideData\bin\Debug\Inside.DataProviders.dll
+D:\source\hiepphat\dev\program\InsideData\bin\Debug\Inside.DataProviders.pdb
+D:\source\hiepphat\dev\program\InsideData\obj\Debug\InsideData.csprojResolveAssemblyReference.cache
+D:\source\hiepphat\dev\program\InsideData\obj\Debug\Inside.InsideData.dll
+D:\source\hiepphat\dev\program\InsideData\obj\Debug\Inside.InsideData.pdb

@@ -42,6 +42,7 @@
                     <ItemTemplate>
                         <asp:LinkButton ID="lbtnEdit" runat="server" CommandArgument='<% #Eval("AccountId") %>' OnClick="lbtnEdit_Click">Edit</asp:LinkButton>
                     </ItemTemplate>
+                    <ItemStyle HorizontalAlign="Center" />
                 </asp:TemplateField>
             </Columns>
         </asp:GridView>

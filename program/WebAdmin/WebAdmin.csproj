@@ -152,6 +152,8 @@
     <Content Include="Function\Fee\FeeType\Default.aspx" />
     <Content Include="Function\Order\Add\Default.aspx" />
     <Content Include="Function\Order\Default.aspx" />
+    <Content Include="Function\Order\Detail\Default.aspx" />
+    <Content Include="Function\Order\Detail\Print\Default.aspx" />
     <Content Include="Function\Order\Edit\Default.aspx" />
     <Content Include="Function\Product\Add\Default.aspx" />
     <Content Include="Function\Product\Default.aspx" />
@@ -556,6 +558,20 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Function\Order\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Function\Order\Detail\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Function\Order\Detail\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Function\Order\Detail\Print\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Function\Order\Detail\Print\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Function\Order\Edit\Default.aspx.cs">

@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_NewBackgroundProfile>False</_NewBackgroundProfile>
-    <_PublishTargetUrl>D:\source\hiepphat\inside\webfolder</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\source\hiepphat\publish\webfolder</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Admin/ActionLogs/Default.aspx">
@@ -113,10 +113,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/18/2017 09:30:52</publishTime>
     </File>
     <File Include="bin/Inside.InsideData.dll">
-      <publishTime>08/10/2017 11:43:00</publishTime>
+      <publishTime>08/11/2017 12:00:29</publishTime>
     </File>
     <File Include="bin/Inside.InsideData.pdb">
-      <publishTime>08/10/2017 11:43:00</publishTime>
+      <publishTime>08/11/2017 12:00:29</publishTime>
     </File>
     <File Include="bin/Inside.SecurityProviders.dll">
       <publishTime>08/10/2017 11:46:11</publishTime>
@@ -125,10 +125,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/10/2017 11:46:11</publishTime>
     </File>
     <File Include="bin/Inside.WebAdmin.dll">
-      <publishTime>08/10/2017 11:46:12</publishTime>
+      <publishTime>08/11/2017 16:31:01</publishTime>
     </File>
     <File Include="bin/Inside.WebAdmin.pdb">
-      <publishTime>08/10/2017 11:46:12</publishTime>
+      <publishTime>08/11/2017 16:31:01</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>06/18/2017 13:57:10</publishTime>
@@ -308,7 +308,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/10/2017 09:21:58</publishTime>
     </File>
     <File Include="Function/Account/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/11/2017 11:05:05</publishTime>
     </File>
     <File Include="Function/Account/Edit/Default.aspx">
       <publishTime>08/10/2017 09:21:58</publishTime>
@@ -326,7 +326,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/10/2017 09:21:58</publishTime>
     </File>
     <File Include="Function/Fee/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/11/2017 11:05:14</publishTime>
     </File>
     <File Include="Function/Fee/Edit/Default.aspx">
       <publishTime>08/10/2017 09:21:58</publishTime>
@@ -338,7 +338,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/08/2017 10:08:36</publishTime>
     </File>
     <File Include="Function/Order/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/11/2017 14:56:38</publishTime>
+    </File>
+    <File Include="Function/Order/Detail/Default.aspx">
+      <publishTime>08/11/2017 15:07:50</publishTime>
+    </File>
+    <File Include="Function/Order/Detail/Print/Default.aspx">
+      <publishTime>08/11/2017 16:19:43</publishTime>
     </File>
     <File Include="Function/Order/Edit/Default.aspx">
       <publishTime>08/10/2017 09:21:58</publishTime>
@@ -347,7 +353,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/28/2017 09:00:12</publishTime>
     </File>
     <File Include="Function/Product/Default.aspx">
-      <publishTime>07/26/2017 14:42:18</publishTime>
+      <publishTime>08/11/2017 11:05:20</publishTime>
     </File>
     <File Include="Function/Product/Edit/Default.aspx">
       <publishTime>07/28/2017 09:00:12</publishTime>

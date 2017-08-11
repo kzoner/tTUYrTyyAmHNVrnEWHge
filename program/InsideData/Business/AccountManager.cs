@@ -42,6 +42,18 @@ namespace Inside.InsideData.Business
             return result;
         }
 
+        public string OrderType_GetName(int accountTypeId)
+        {
+            string result = accountTypeId.ToString();
+            DataTable dt = adapter.AccountType_GetList(accountTypeId, 0);
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                DataRow dr = dt.Rows[0];
+                result = dr["OrderTypeName"].ToString();
+            }
+            return result;
+        }
+
         public int Account_RowTotal(int accountTypeId, string accountName, int accountLevelId, int accountStatus)
         {
             return adapter.Account_RowTotal(accountTypeId, accountName, accountLevelId, accountStatus);
