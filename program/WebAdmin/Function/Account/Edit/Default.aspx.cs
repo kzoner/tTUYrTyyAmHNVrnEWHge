@@ -9,7 +9,7 @@ namespace WebAdmin.Function.Account.Edit
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "A84B9669-7F18-45B2-B412-377E836200B2";
+            this.Token = "77B8FCDB-D981-4C0C-8D91-B862FBDB1F13";
         }
 
         protected void Page_Load(object sender, EventArgs e)

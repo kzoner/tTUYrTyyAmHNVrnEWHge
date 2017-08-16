@@ -39,6 +39,7 @@
                     <ItemTemplate>
                         <asp:LinkButton ID="lbtnEdit" runat="server" CommandArgument='<% #Eval("FeeTypeId") %>' OnClick="lbtnEdit_Click" CausesValidation="false">Edit</asp:LinkButton>
                     </ItemTemplate>
+                    <ItemStyle HorizontalAlign="Center" />
                 </asp:TemplateField>
                 <asp:BoundField DataField="FeeTypeName" HeaderText="Loại" />
                 <asp:BoundField DataField="FeeTypeStatus" HeaderText="Trạng thái" />

@@ -39,14 +39,14 @@ namespace WebAdmin.Function.Fee
                     ddlFeeType.DataTextField = "FeeTypeName";
                     ddlFeeType.DataBind();
 
-                    ddlFeeType.Items.Insert(0, new ListItem("Tất cả", "0"));
-
                     ErrorBox.Message = string.Empty;
                 }
                 else
                 {
                     ErrorBox.Message = "Không có dữ liệu";
                 }
+
+                ddlFeeType.Items.Insert(0, new ListItem("Tất cả", "0"));
             }
             catch (Exception ex)
             {

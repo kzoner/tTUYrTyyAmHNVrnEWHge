@@ -91,7 +91,8 @@
                         </tr>
                     </table>
                     <br />
-                    <asp:GridView ID="gvData" runat="server" Width="100%" CellPadding="4" CellSpacing="0" AutoGenerateColumns="False" EnableModelValidation="True" BorderStyle="Solid" BorderColor="Gray" BorderWidth="1px" OnRowDataBound="gvData_RowDataBound">
+                    <asp:GridView ID="gvData" runat="server" Width="100%" CellPadding="4" CellSpacing="0" AutoGenerateColumns="False"
+                        EnableModelValidation="True" BorderStyle="Solid" BorderColor="Gray" BorderWidth="1px" OnRowDataBound="gvData_RowDataBound">
                         <Columns>
                             <asp:TemplateField HeaderText="STT">
                                 <ItemTemplate>

@@ -11,7 +11,7 @@ namespace WebAdmin.Function.Product.Edit
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "91594A8E-7CA3-4704-873E-DDAE3B606CB2";
+            this.Token = "145F1D7E-A756-4B4B-9582-6F25F41AC56B";
         }
 
         protected void Page_Load(object sender, EventArgs e)

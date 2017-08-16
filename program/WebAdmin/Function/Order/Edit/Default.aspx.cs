@@ -10,7 +10,7 @@ namespace WebAdmin.Function.Order.Edit
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "2AA2E79D-D0D3-4EC7-84EA-2EA3FFADD3BB";
+            this.Token = "C461C88F-79D8-425A-824E-3ED16E711D27";
         }
 
         protected void Page_Load(object sender, EventArgs e)

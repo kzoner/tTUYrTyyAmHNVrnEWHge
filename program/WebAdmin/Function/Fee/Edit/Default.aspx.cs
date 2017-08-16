@@ -9,7 +9,7 @@ namespace WebAdmin.Function.Fee.Edit
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "4EC1BBAC-A226-4CB8-99FE-79521B45FCCD";
+            this.Token = "54A080EE-7F8E-43AD-9B67-138383AAD78F";
         }
 
         protected void Page_Load(object sender, EventArgs e)

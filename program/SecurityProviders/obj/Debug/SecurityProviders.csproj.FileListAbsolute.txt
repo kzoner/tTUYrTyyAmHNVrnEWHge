@@ -12,3 +12,10 @@ D:\source\hiepphat\inside\program\SecurityProviders\bin\Debug\Inside.DataProvide
 D:\source\hiepphat\inside\program\SecurityProviders\obj\Debug\SecurityProviders.csprojResolveAssemblyReference.cache
 D:\source\hiepphat\inside\program\SecurityProviders\obj\Debug\Inside.SecurityProviders.dll
 D:\source\hiepphat\inside\program\SecurityProviders\obj\Debug\Inside.SecurityProviders.pdb
+D:\Source\hiepphat\dev\program\SecurityProviders\bin\Debug\Inside.SecurityProviders.dll
+D:\Source\hiepphat\dev\program\SecurityProviders\bin\Debug\Inside.SecurityProviders.pdb
+D:\Source\hiepphat\dev\program\SecurityProviders\bin\Debug\Inside.DataProviders.dll
+D:\Source\hiepphat\dev\program\SecurityProviders\bin\Debug\Inside.DataProviders.pdb
+D:\Source\hiepphat\dev\program\SecurityProviders\obj\Debug\SecurityProviders.csprojResolveAssemblyReference.cache
+D:\Source\hiepphat\dev\program\SecurityProviders\obj\Debug\Inside.SecurityProviders.dll
+D:\Source\hiepphat\dev\program\SecurityProviders\obj\Debug\Inside.SecurityProviders.pdb

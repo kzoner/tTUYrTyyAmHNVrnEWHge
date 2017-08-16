@@ -7,3 +7,8 @@ D:\source\hiepphat\inside\program\DataProviders\bin\Debug\Inside.DataProviders.p
 D:\source\hiepphat\inside\program\DataProviders\obj\Debug\DataProviders.csprojResolveAssemblyReference.cache
 D:\source\hiepphat\inside\program\DataProviders\obj\Debug\Inside.DataProviders.dll
 D:\source\hiepphat\inside\program\DataProviders\obj\Debug\Inside.DataProviders.pdb
+D:\Source\hiepphat\dev\program\DataProviders\bin\Debug\Inside.DataProviders.dll
+D:\Source\hiepphat\dev\program\DataProviders\bin\Debug\Inside.DataProviders.pdb
+D:\Source\hiepphat\dev\program\DataProviders\obj\Debug\DataProviders.csprojResolveAssemblyReference.cache
+D:\Source\hiepphat\dev\program\DataProviders\obj\Debug\Inside.DataProviders.dll
+D:\Source\hiepphat\dev\program\DataProviders\obj\Debug\Inside.DataProviders.pdb

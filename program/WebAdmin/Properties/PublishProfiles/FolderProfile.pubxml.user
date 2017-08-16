@@ -7,311 +7,311 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_NewBackgroundProfile>False</_NewBackgroundProfile>
-    <_PublishTargetUrl>D:\source\hiepphat\publish\webfolder</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\Source\hiepphat\publish\webfolder</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Admin/ActionLogs/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Application/Create/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Application/Manage/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Application/Update/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/ChecklistNagios/checklist.asmx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/ChecklistNagios/Web.config">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/ErrorLog/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/LoginLogs/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Menus/Manage/Default.aspx">
-      <publishTime>06/06/2017 17:36:12</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/OperationCat/Create/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/OperationCat/Edit/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/OperationCat/Manage/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Resources/Add/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Resources/Edit/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Resources/Manage/Default.aspx">
-      <publishTime>07/26/2017 14:47:35</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Resources/ResourceTypes/Default.aspx">
-      <publishTime>06/06/2017 17:29:11</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Resources/SetPermission/Default.aspx">
-      <publishTime>06/06/2017 17:33:54</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Roles/Create/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Roles/Manage/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Roles/Update/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/ChangePwd/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/Create/Default.aspx">
-      <publishTime>06/06/2017 17:29:11</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/Manage/Default.aspx">
-      <publishTime>06/06/2017 17:29:11</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/Manage/ResetPwd/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/RemovePermission/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/Update/Default.aspx">
-      <publishTime>06/06/2017 17:29:11</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Admin/Users/UserInRole/Default.aspx">
-      <publishTime>06/02/2017 10:01:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="App_Themes/Default/Default.css">
-      <publishTime>06/02/2017 09:58:39</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="App_Themes/Default/Default.skin">
-      <publishTime>06/02/2017 09:58:39</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="App_Themes/Default/Tab.css">
-      <publishTime>06/02/2017 09:58:39</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="App_Themes/NoTheme/NoTheme.skin">
-      <publishTime>06/02/2017 09:58:39</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/EPPlus.dll">
-      <publishTime>07/14/2016 15:57:38</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/Inside.DataProviders.dll">
-      <publishTime>07/18/2017 09:30:52</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/Inside.DataProviders.pdb">
-      <publishTime>07/18/2017 09:30:52</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/Inside.InsideData.dll">
-      <publishTime>08/11/2017 12:00:29</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/Inside.InsideData.pdb">
-      <publishTime>08/11/2017 12:00:29</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="bin/Inside.SecurityProviders.dll">
-      <publishTime>08/10/2017 11:46:11</publishTime>
+      <publishTime>08/16/2017 20:56:42</publishTime>
     </File>
     <File Include="bin/Inside.SecurityProviders.pdb">
-      <publishTime>08/10/2017 11:46:11</publishTime>
+      <publishTime>08/16/2017 20:56:42</publishTime>
     </File>
     <File Include="bin/Inside.WebAdmin.dll">
-      <publishTime>08/11/2017 16:31:01</publishTime>
+      <publishTime>08/16/2017 20:56:42</publishTime>
     </File>
     <File Include="bin/Inside.WebAdmin.pdb">
-      <publishTime>08/11/2017 16:31:01</publishTime>
+      <publishTime>08/16/2017 20:56:42</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>06/18/2017 13:57:10</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/jquery-ui-timepicker-addon.css">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/jquery-ui-timepicker-addon.min.css">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/accordion.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/all.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/autocomplete.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/base.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/button.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/core.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/datepicker.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/dialog.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/draggable.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_444444_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_555555_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_777620_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_777777_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_cc0000_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-icons_ffffff_256x240.png">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/jquery-ui.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/jquery-ui.min.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/menu.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/progressbar.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/resizable.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/selectable.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/selectmenu.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/slider.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/sortable.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/spinner.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/tabs.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/theme.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Content/themes/base/tooltip.css">
-      <publishTime>06/06/2017 16:32:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="ContentPage.Master">
-      <publishTime>06/06/2017 17:11:55</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/ApplicationList.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/ApplicationRolesList.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/ConfirmBox.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/ErrorBox.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/LoginView.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/MessageBox.ascx">
-      <publishTime>07/06/2017 10:10:57</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/NotifyBox.ascx">
-      <publishTime>06/02/2017 10:01:21</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/Pager.ascx">
-      <publishTime>07/26/2017 14:37:52</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Controls/PagerBox.ascx">
-      <publishTime>07/26/2017 14:37:00</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>06/02/2017 10:00:23</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="error403.4.htm">
-      <publishTime>06/02/2017 10:01:11</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="ErrorPage.htm">
-      <publishTime>06/02/2017 10:01:31</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>06/02/2017 10:01:19</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Account/Add/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Account/Default.aspx">
-      <publishTime>08/11/2017 11:05:05</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Account/Edit/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Account/Search/Add/Default.aspx">
       <publishTime>07/27/2017 20:07:27</publishTime>
@@ -323,301 +323,301 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/27/2017 20:07:27</publishTime>
     </File>
     <File Include="Function/Fee/Add/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Fee/Default.aspx">
-      <publishTime>08/11/2017 11:05:14</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Fee/Edit/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Fee/FeeType/Default.aspx">
-      <publishTime>08/10/2017 10:46:09</publishTime>
+      <publishTime>08/16/2017 20:12:26</publishTime>
     </File>
     <File Include="Function/Order/Add/Default.aspx">
-      <publishTime>08/08/2017 10:08:36</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Order/Default.aspx">
-      <publishTime>08/11/2017 14:56:38</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Order/Detail/Default.aspx">
-      <publishTime>08/11/2017 15:07:50</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Order/Detail/Print/Default.aspx">
-      <publishTime>08/11/2017 16:19:43</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Order/Edit/Default.aspx">
-      <publishTime>08/10/2017 09:21:58</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Product/Add/Default.aspx">
-      <publishTime>07/28/2017 09:00:12</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Product/Default.aspx">
-      <publishTime>08/11/2017 11:05:20</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Function/Product/Edit/Default.aspx">
-      <publishTime>07/28/2017 09:00:12</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>06/02/2017 10:00:23</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Home.aspx">
-      <publishTime>07/28/2017 13:50:02</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/bg.jpg">
-      <publishTime>06/06/2017 17:09:16</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/blue_error.gif">
-      <publishTime>06/02/2017 10:00:48</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/first.png">
-      <publishTime>06/06/2017 17:13:35</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/frame_close.png">
-      <publishTime>06/06/2017 17:09:16</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/frame_open.png">
-      <publishTime>06/06/2017 17:09:16</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/last.png">
-      <publishTime>06/06/2017 17:13:35</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/logo_fpt.png">
-      <publishTime>06/06/2017 17:09:16</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/map.jpg">
-      <publishTime>07/28/2017 13:50:30</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/next.png">
-      <publishTime>06/06/2017 17:13:35</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/previous.png">
-      <publishTime>06/06/2017 17:13:35</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/Product/2cgo0t02mqe5cksr.jpg">
-      <publishTime>07/25/2017 13:53:23</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Images/red_error.gif">
-      <publishTime>06/02/2017 10:00:50</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/animate.min.css">
-      <publishTime>06/06/2017 17:08:03</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/canvasjs.min.js">
-      <publishTime>06/06/2017 16:36:36</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/Function.js">
-      <publishTime>07/28/2017 09:00:12</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/insidegate.js">
-      <publishTime>06/06/2017 16:47:25</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/notify.min.js">
-      <publishTime>06/06/2017 16:37:02</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Library/tab.js">
-      <publishTime>06/06/2017 17:14:17</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Login.aspx">
-      <publishTime>06/02/2017 09:58:48</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="MenuTree.aspx">
-      <publishTime>06/06/2017 15:28:30</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>07/06/2017 10:38:33</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Properties/DataSources/System.Data.DataSet.datasource">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="resizer.htm">
-      <publishTime>06/02/2017 10:01:19</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-addon-i18n.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-addon-i18n.min.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-af.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-am.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-bg.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-ca.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-cs.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-da.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-de.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-el.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-es.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-et.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-eu.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-fa.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-fi.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-fr.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-gl.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-he.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-hr.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-hu.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-id.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-it.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-ja.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-ko.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-lt.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-lv.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-mk.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-nl.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-no.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-pl.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-pt-BR.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-pt.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-ro.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-ru.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sk.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sl.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sq.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sr-RS.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sr-YU.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-sv.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-th.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-tr.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-uk.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-vi.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-zh-CN.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/i18n/jquery-ui-timepicker-zh-TW.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.js">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.min.js">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.min.map">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.js">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.min.js">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.min.map">
-      <publishTime>06/06/2017 16:32:32</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-1.12.1.js">
-      <publishTime>06/06/2017 16:32:50</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-1.12.1.min.js">
-      <publishTime>06/06/2017 16:32:50</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-sliderAccess.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-timepicker-addon.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Scripts/jquery-ui-timepicker-addon.min.js">
-      <publishTime>06/06/2017 16:49:40</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="SignIn/Default.aspx">
-      <publishTime>06/02/2017 10:01:20</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="SignOut/Default.aspx">
-      <publishTime>06/02/2017 10:01:18</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/25/2017 09:02:16</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="Web.sitemap">
-      <publishTime>06/02/2017 10:01:31</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
     <File Include="WelcomeScreen.aspx">
-      <publishTime>06/02/2017 09:58:45</publishTime>
+      <publishTime>08/16/2017 20:06:11</publishTime>
     </File>
   </ItemGroup>
 </Project>

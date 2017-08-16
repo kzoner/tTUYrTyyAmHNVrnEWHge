@@ -9,7 +9,7 @@ namespace WebAdmin.Function.Account.Add
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "C596EA96-47C9-4B0A-95A5-207BA1C3B100";
+            this.Token = "24D92393-704E-4F24-9C94-0274FCB0DDBA";
         }
 
         protected void Page_Load(object sender, EventArgs e)

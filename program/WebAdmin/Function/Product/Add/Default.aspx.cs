@@ -11,7 +11,7 @@ namespace WebAdmin.Function.Product.Add
     {
         protected void Page_Init(object sender, EventArgs e)
         {
-            this.Token = "048AA472-0640-4170-828F-90D307C6FF78";
+            this.Token = "5C716BEB-9647-43AB-BC92-216B676ED2C9";
         }
 
         protected void Page_Load(object sender, EventArgs e)
